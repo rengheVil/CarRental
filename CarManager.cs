@@ -34,9 +34,9 @@ namespace CarRentalSystem01
         }
 
         public void DeleteCar(int id){
-            newCar.RemoveAll(x => x.CarId == id);
+            newCar.RemoveAll(x => x.CarId == id);Console.Write("Enter the Car Id: ");
         }
-
+ 
        
     }
 
